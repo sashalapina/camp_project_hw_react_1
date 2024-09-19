@@ -11,8 +11,8 @@ body {
     border-radius: 100px 10px;
     background-color: #f6f6f6;
     box-shadow: 0 9px 21px 0 rgba(32, 31, 41, 0.15);
-    height: 400px;
-    width: fit-content;
+    height: 320px;
+    width: 40%;
     gap: 15px;
 }
 
@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 200px;
-    padding: 100px 60px;
+    padding: 60px 60px;
 
 }
 
@@ -29,7 +29,7 @@ body {
     margin: 0;
     width: 100%;
     font-size: 30px;
-    text-align: center;
+    text-align: left;
 }
 
 .card-text {
@@ -90,7 +90,6 @@ body {
 /*User card*/
 .user-card-box {
     margin: 0 auto;
-    /* transform: translate(-60px, 120%); */
     transform: translateY(140%);
     position: relative;
     border-radius: 100px 10px;
@@ -112,13 +111,13 @@ body {
     content: "";
     display: block;
     position: absolute;
-    top: -85px;
-    left: -50px;
+    top: -35px;
+    left: -30px;
     margin: 0 auto;
     border: 5px solid #fff;
     border-radius: 50%;
-    width: 140px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
     background-image: url(./assets/user_pic.png);
     background-size: 100%;
