@@ -2,89 +2,7 @@
 body {
     background-color: #E5E5E5;
     font-family: 'Nunito', sans-serif;
-}
-
-/*Greet*/
-.input-group {
-    margin: 0 auto;
-    transform: translateY(150px);
-    border-radius: 100px 10px;
-    background-color: #f6f6f6;
-    box-shadow: 0 9px 21px 0 rgba(32, 31, 41, 0.15);
-    height: 320px;
-    width: 40%;
-    gap: 15px;
-}
-
-.input-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 200px;
-    padding: 60px 60px;
-
-}
-
-.main-title {
-    margin: 0;
-    width: 100%;
-    font-size: 30px;
-    text-align: left;
-}
-
-.card-text {
-    margin: 0;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 137%;
-    letter-spacing: 0.05em;
-    text-align: left;
-}
-
-.inputs {
-    display: flex;
-    width: inherit;
-    gap: 15px;
-    height: 30px;
-}
-
-.card-input {
-    width: 50%;
-    border: 1px solid #d0d0d0;
-    border-radius: 4px;
-    box-shadow: 0 9px 21px 0 rgba(32, 31, 41, 0.05);
-    padding: 5px;
-}
-
-.card-input::placeholder {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 137%;
-    letter-spacing: 0.05em;
-    text-align: left;
-    color: #a3aebe;
-}
-
-.card-input:focus {
-    outline: none;
-}
-
-.buttons {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    gap: 15px;
-}
-
-.card-button {
-    font-family: 'Nunito', sans-serif;
-    width: 100px;
-    padding: 5px;
-    cursor: pointer;
-    background-color: #fff;
-    border: 1px solid #d0d0d0;
-    border-radius: 4px;
-    box-shadow: 0 9px 21px 0 rgba(32, 31, 41, 0.05);
+    /* overflow-y: hidden; */
 }
 
 /*User card*/
@@ -119,8 +37,10 @@ body {
     width: 100px;
     height: 100px;
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
-    background-image: url(./assets/user_pic.png);
-    background-size: 100%;
+    background-image: url(./assets/user_pic_emoji.png);
+    background-size: 50%;
+    background-color: #fff;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -151,4 +71,145 @@ body {
     text-align: left;
     padding-left: 15px;
     color: #a3aebe;
+}
+
+/*Product card*/
+.user-card-container {
+    margin-left: 60px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 100px 10px;
+    background-color: #f6f6f6;
+    box-shadow: 0 9px 21px 0 rgba(32, 31, 41, 0.15);
+    width: 278px;
+    height: 200px;
+    padding: 60px;
+}
+
+.product-card-title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -35px;
+    left: -30px;
+    margin: 0 auto;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
+    background-image: url(./assets/poo.png);
+    background-color: #fff;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product-card-title {
+    margin: 0;
+    width: 100%;
+    font-size: 30px;
+    text-align: left;
+}
+
+.product-card-descr {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 137%;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #a3aebe;
+}
+
+.product-card-price {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: left;
+    color: #47606f;
+}
+
+/*Article card*/
+.article-card-container {
+    margin: 0 auto;
+    margin-right: 60px;
+    transform: translateY(-73%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 100px 10px;
+    background-color: #f6f6f6;
+    box-shadow: 0 9px 21px 0 rgba(32, 31, 41, 0.15);
+    width: 278px;
+    height: 70vh;
+    padding: 60px;
+}
+
+.article-card-title {
+    margin: 0;
+    width: 100%;
+    font-size: 30px;
+    text-align: left;
+}
+
+.article-card-text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 137%;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #a3aebe;
+    overflow-y: scroll;
+}
+
+.article-card-text::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    right: -40px;
+    margin: 0 auto;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
+    background-image: url(./assets/emoji_memo.png);
+    background-color: #fff;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*Button*/
+.btn {
+    margin-left: 60px;
+    transform: translateY(-470px);
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 9px 21px 0 rgba(32, 31, 41, 0.15);
+    cursor: pointer;
+}
+
+.btn:hover {
+    outline: 2px solid #f6f6f6;
+    box-shadow: 0 9px 21px 0 rgba(32, 31, 41, 0.3);
+}
+
+.btn:active {
+    background-color: #f6f6f6;
+    outline: 2px solid #f6f6f6;
+    box-shadow: 0 9px 21px 0 rgba(32, 31, 41, 0.3);
 }

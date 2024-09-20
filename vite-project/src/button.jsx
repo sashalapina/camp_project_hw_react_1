@@ -1,7 +1,7 @@
 export function Button({onClick}){
     return(
-        <button onClick={onClick}>
-            Click me
+        <button className="btn" onClick={onClick}>
+            Проверь консоль
         </button>
     )
 }
