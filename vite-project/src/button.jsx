@@ -1,7 +1,7 @@
 export function Button({onClick}){
     return(
         <button className="btn" onClick={onClick}>
-            Проверь консоль
+            Click and check console
         </button>
     )
 }

@@ -5,6 +5,12 @@ body {
     /* overflow-y: hidden; */
 }
 
+.main-root-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
 /*User card*/
 .user-card-box {
     margin: 0 auto;
