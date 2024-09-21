@@ -1,0 +1,20 @@
+{
+    "articles": [
+      {
+        "id": 1,
+        "title": "ArticlesBeing a Poet is Easier than You Think",
+        "text": "The common populace believes poetry is beyond them. They have jammed the thought in their brains that poetry is a highfalutin art form designed for individuals that are either eccentric, unreasonably wealthy, or gung ho about being liberal. What the majority of people don’t grasp is that poetry is right under their fingers and they can write it as fluently as a shopping list (and some poetry looks like a shopping list, unfortunately)."
+      },
+      {
+        "id": 2,
+        "title": "Haiku and Meditation",
+        "text": "(Haiku is a Japanese style of poetry considered to be the smallest form of poetry in the world. Traditionally, it is written in 17 syllables, uses a seasonal reference, and employs the juxtaposition of two images to create an effect on the reader. Though nowadays the rules and principles are flexible, haiku still retains much of its meditative spirit."
+      },
+      {
+        "id": 3,
+        "title": "Frankenstein, the Baroness, and the Climate Refugees of 1816",
+        "text": "Deep in our cultural memory, in trace form, lies the bleak image of a summer 200 years ago in which the sun never shone, frosts devastated crops in the fields, and our ancestors, from Europe to North America to Asia, went without bread, rice, or whatever staple food they depended upon for survival. Perhaps they died of famine or fever, or became refugees. More likely, no record remains of what they suffered, except a faintly recalled reference in the tattered Rolodex of our minds. 1816 has, for generations, been known as “The Year Without a Summer”: the coldest, wettest, weirdest summer of the last millennium. If you read “Frankenstein” at school, you probably heard some version of the literary mythology behind that year. Mary Godwin (later Mary Shelley), having eloped with her poet-lover Percy Shelley, joins Lord Byron on the shores of Lake Geneva for a summer of love, boating, and Alpine picnics. But the terrible weather forces them inside. They take drugs and fornicate. They grow bored, then kinkily inventive. A ghost story competition is suggested. And boom! Mary Shelley writes “Frankenstein.”"
+      }
+    ]
+  }
+  

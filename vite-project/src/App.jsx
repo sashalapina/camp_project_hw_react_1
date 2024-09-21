@@ -1,9 +1,15 @@
 import './App.css'
+import './Button/Button.css'
+import './UserCard/UserCard.css'
+import './Articles/Articles.css'
+import './Product/Product.css'
+
 import { useState } from 'react';
-import { UserCard } from './userCard';
-import { ProductCard } from './product';
-import { Article } from './Article';
-import { Button } from './Button';
+import { UserCard } from './UserCard/userCard';
+import { ProductCard } from './Product/product';
+import { Article } from './Articles/Article';
+import { Button } from './Button/Button';
+import articlesData from './Articles/articles.json';
 
 function App() {
   const [productObject] =  useState({
@@ -24,15 +30,28 @@ function App() {
 
   }
 
-  const articleTitle = 'Sedentary Lifestyle Puts Office Workers at Risk';
-  const articleText = 'The last time the majority of the American population worked hard in terms of solid physical exercise was in the 19th century or so, when they still needed to work on farms to grow food for themselves. Public transportation was not as developed as today, and many townsmen had to walk around by feet. There were no electrical appliances that could make all household chores easier, so men and women had to do their best to maintain order at home. Some people might say those were dark and uncivilized times, when people used to die from exhaustion; but no one can accuse our forefathers of leading a sedentary way of life. ';
+  const article1 = articlesData.articles.find(article => article.id === 1)
+  const articleTitle1 = article1.title
+  const articleText1 = article1.text
+
+  const article2 = articlesData.articles.find(article => article.id === 2)
+  const articleTitle2 = article2.title
+  const articleText2 = article2.text
+
+  const article3 = articlesData.articles.find(article => article.id === 3)
+  const articleTitle3 = article3.title
+  const articleText3 = article3.text
+
+
 
   return (
     <div>
       <UserCard name={'Aleksandra'} age={31} />
       <ProductCard product={productObject} />
-      <Article title={articleTitle} text={articleText} />
-      <Button onClick={onClick}/>
+      <Article title={articleTitle1} text={articleText1} />
+      <Article title={articleTitle2} text={articleText2} />
+      <Article title={articleTitle3} text={articleText3} />
+      <Button onClick={onClick} />
     </div>
   )
 }
