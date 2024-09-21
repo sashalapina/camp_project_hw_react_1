@@ -45,7 +45,7 @@ function App() {
 
 
   return (
-    <div>
+    <>
       <div className='user-product-container'>
         <UserCard name={'Aleksandra'} age={31} />
         <ProductCard product={productObject} />
@@ -58,7 +58,7 @@ function App() {
       <div className='button-container'>
         <Button onClick={onClick} />
       </div>
-    </div>
+    </>
   )
 }
 
