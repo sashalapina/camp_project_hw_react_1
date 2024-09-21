@@ -1,4 +1,12 @@
 /*User card*/
+.user-product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+
 .user-card-box {
     position: relative;
     border-radius: 100px 10px;

@@ -1,4 +1,9 @@
 /*Article card*/
+.article-list-container {
+    display: flex;
+    gap: 60px;
+}
+
 .article-card-container {
     position: relative;
     display: flex;
@@ -8,7 +13,7 @@
     background-color: #f6f6f6;
     box-shadow: 0 9px 21px 0 rgba(32, 31, 41, 0.15);
     width: 278px;
-    height: fit-content;
+    height: 470px;
     padding: 60px;
     margin-bottom: 60px;
 }

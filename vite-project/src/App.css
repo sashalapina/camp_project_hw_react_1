@@ -6,6 +6,6 @@ body {
 
 .main-root-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 60px 60px;
 }

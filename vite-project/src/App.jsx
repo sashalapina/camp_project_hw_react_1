@@ -46,12 +46,18 @@ function App() {
 
   return (
     <div>
-      <UserCard name={'Aleksandra'} age={31} />
-      <ProductCard product={productObject} />
-      <Article title={articleTitle1} text={articleText1} />
-      <Article title={articleTitle2} text={articleText2} />
-      <Article title={articleTitle3} text={articleText3} />
-      <Button onClick={onClick} />
+      <div className='user-product-container'>
+        <UserCard name={'Aleksandra'} age={31} />
+        <ProductCard product={productObject} />
+      </div>
+      <div className='article-list-container'>
+        <Article title={articleTitle1} text={articleText1} />
+        <Article title={articleTitle2} text={articleText2} />
+        <Article title={articleTitle3} text={articleText3} />
+      </div>
+      <div className='button-container'>
+        <Button onClick={onClick} />
+      </div>
     </div>
   )
 }

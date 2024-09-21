@@ -1,4 +1,9 @@
 /*Button*/
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
 .btn {
     font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
