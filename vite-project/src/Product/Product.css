@@ -1,5 +1,5 @@
 /*Product card*/
-.user-card-container {
+.product-card-container {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -11,6 +11,11 @@
     height: 200px;
     padding: 60px;
     margin-bottom: 60px;
+}
+
+.product-card-container:hover {
+    outline: 2px solid #f6f6f6;
+    box-shadow: 0 9px 21px 0 rgba(32, 31, 41, 0.3);
 }
 
 .product-card-title::before {

@@ -17,6 +17,11 @@
     margin-bottom: 60px;
 }
 
+.user-card-box:hover {
+    outline: 2px solid #f6f6f6;
+    box-shadow: 0 9px 21px 0 rgba(32, 31, 41, 0.3);
+}
+
 .user-card {
     display: flex;
     flex-direction: column;
