@@ -1,15 +1,15 @@
 import './App.css'
-import './Button/Button.css'
-import './UserCard/UserCard.css'
-import './Articles/Articles.css'
-import './Product/Product.css'
+import './components/Button/Button.css'
+import './components/UserCard/UserCard.css'
+import './components/Articles/Articles.css'
+import './components/Product/Product.css'
 
 import { useState } from 'react';
-import { UserCard } from './UserCard/userCard';
-import { ProductCard } from './Product/product';
-import { Article } from './Articles/Article';
-import { Button } from './Button/Button';
-import articlesData from './Articles/articles.json';
+import { UserCard } from './components/UserCard/userCard';
+import { ProductCard } from './components/Product/product';
+import { Article } from './components/Articles/Article';
+import { Button } from './components/Button/Button';
+import articlesData from './components/Articles/articles.json';
 
 function App() {
   const [productObject] =  useState({

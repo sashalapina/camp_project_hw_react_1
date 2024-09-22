@@ -30,7 +30,7 @@
     width: 90px;
     height: 90px;
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
-    background-image: url(../assets/poo.png);
+    background-image: url(../../assets/poo.png);
     background-color: #fff;
     background-size: 50%;
     background-repeat: no-repeat;
@@ -49,7 +49,7 @@
     width: 90px;
     height: 90px;
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
-    background-image: url(../assets/poo.png);
+    background-image: url(../../assets/poo.png);
     background-color: #fff;
     background-size: 50%;
     background-repeat: no-repeat;
